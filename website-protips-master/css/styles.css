@@ -341,8 +341,8 @@ html, body{
 .testemunha-imagem{
 	border-radius: 4px;
 	overflow: hidden;
-	width: 100px;
-	height: 100px;
+	width: 300px;
+	height: 200px;
 	margin: 50px auto 10px auto;
 }
 
@@ -356,7 +356,7 @@ html, body{
 
 .testemunha-profissao{
 	font-size: 14px;
-	color: #FF4F4F;
+	color: #2f128f;
 	font-weight: 600;
 	display: block;
 	margin: 10px 0 20px 0;
@@ -390,7 +390,7 @@ html, body{
 .swiper-pagination-bullet-active,
 .bullet:hover,
 .bullet.ativo{
-	background: #FF4F4F;
+	background: #FFCF52;
 	opacity: 1;
 }
 
