@@ -79,27 +79,27 @@
           </div>
 
           <nav class="footer__links">
-            <strong class="footer__titulo">Quick Links</strong>
+            <strong class="footer__titulo">Links Rápidos</strong>
             <ul>
-              <li class="footer__menu-item"><a  href="#" class="footer__link">About Us</a></li>
+              <li class="footer__menu-item"><a  href="#" class="footer__link">Sobre nós</a></li>
               <li class="footer__menu-item"><a href="#" class="footer__link">Blog</a></li>
-              <li class="footer__menu-item"><a href="#" class="footer__link">Contact</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__link">Contato</a></li>
               <li class="footer__menu-item"><a href="#"  class="footer__link">FAQ</a></li>
             </ul>
           </nav>
           <nav class="footer__pages">
-            <strong class="footer__titulo">Pages</strong>
+            <strong class="footer__titulo">Páginas</strong>
             <ul>
-              <li class="footer__menu-item"><a href="#" class="footer__link">Disclaimer</a></li>
-              <li class="footer__menu-item"><a href="#" class="footer__link">Financing</a></li>
-              <li class="footer__menu-item"><a href="#" class="footer__link">Privacy Policy</a></li>
-              <li class="footer__menu-item"><a href="#" class="footer__link">Terms of Service</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__link">Responsabilidade</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__link">Financeiro</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__link">Politica de privacidade</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__link">Termos de uso</a></li>
             </ul>
           </nav>
           <nav class="footer__legal">
-            <strong class="footer__titulo">Termos de serviço</strong>
+            <strong class="footer__titulo">Termos</strong>
             <ul>
-              <li class="footer__menu-item"><a href="#" class="footer__link">Sobre nós</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__link">Empresa</a></li>
               <li class="footer__menu-item"><a href="#" class="footer__link">Blog</a></li>
               <li class="footer__menu-item"><a href="#" class="footer__link">Contato</a></li>
               <li class="footer__menu-item"><a href="#" class="footer__link">FAQ</a></li>
@@ -111,7 +111,6 @@
         <div class="footer__autor">
           <p>Design by <a href="#">Djavan e Thales</a></p>
         </div>
-        </div>        </div>
       </footer>
 
     </main>
@@ -194,7 +193,7 @@
     for (var i = 0; i < paginationResult.pages; i++) {
       var paginaAtiva = i+1;
       var ativo = page === paginaAtiva ? 'ativo' : '';
-      paginationItems += '<a class="pagination__link '+ativo+'" href="news.html?pagina='+paginaAtiva+'">'+paginaAtiva+'</a>';
+      paginationItems += '<a class="pagination__link '+ativo+'" href="artigos.html?pagina='+paginaAtiva+'">'+paginaAtiva+'</a>';
     }
     document.getElementById('pagination').innerHTML = paginationItems;
 
