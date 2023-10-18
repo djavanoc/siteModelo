@@ -1,11 +1,3 @@
-# website-protips
-Website Protips for YT tutorial
+# Página Sobre Saúde Sental 
+Nossa página é um espaço dedicado ao bem-estar emocional e mental. Compreendemos que a saúde mental é uma parte vital da vida de todos, e estamos aqui para fornecer informações confiáveis e estratégias práticas para fortalecer a sua jornada de autocuidado.
 
-Find playlist here:
-https://www.youtube.com/playlist?list=PLc8qxiPum3CcNtYTMqX6bU0gDgAbKCm1z
-
-Adobe xd file
-https://www.sketchappsources.com/free-source/4256-protips-landing-page-sketch-freebie-resource.html
-
-Modified file XD
-https://frontmindy.s3.amazonaws.com/SITE.xd
